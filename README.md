@@ -121,7 +121,8 @@ AD-Task-2
 |     |  |  └─ ruinGuard.png
 |     |  |  └─ Skirk.png
 |     |  └─ js
-|     └─ index.php
+|     |  └─ index.php
+|     └─ characters
 |     |  └─ css
 |     |  |  └─ chara.css
 |     |  └─ img
@@ -130,7 +131,7 @@ AD-Task-2
 |     |  |  └─ ruinGuard.png
 |     |  |  └─ Skirk.png
 |     |  └─ js
-|     └─ index.php
+|     |  └─ index.php
 └─ src
 └─ vendor
 |   └─ composer
