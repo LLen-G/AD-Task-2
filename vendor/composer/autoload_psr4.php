@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Llen\\AdTask2\\' => array($baseDir . '/src'),
+    'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
 );

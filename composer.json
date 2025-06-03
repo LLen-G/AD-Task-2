@@ -12,5 +12,7 @@
             "email": "christianallengalang@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "composer/semver": "^3.4"
+    }
 }

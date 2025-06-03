@@ -11,12 +11,20 @@ class ComposerStaticInitda34261d33093ada5a3201f1a63ac173
         array (
             'Llen\\AdTask2\\' => 13,
         ),
+        'C' => 
+        array (
+            'Composer\\Semver\\' => 16,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Llen\\AdTask2\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Composer\\Semver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/semver/src',
         ),
     );
 
