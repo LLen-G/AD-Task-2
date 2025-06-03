@@ -97,49 +97,97 @@ Create a sample project that displays the basics of programming. designed and th
 
 ```
 AD-Task-2
-└─ assets
-|   └─ css
+└─ assets/
+|   └─ css/
 |   |   └─ styles.css
-|   └─ img
+|   └─ img/
 |   |   └─ RyanGoslingBL1.jpg
-|   └─ js
-└─ components
+|   └─ js/
+└─ components/
 |   └─ templates
 |   |   └─ header.php
-└─ pages
-|     └─ battleSim
-|     |  └─ css
+└─ pages/
+|     └─ battleSim/
+|     |  └─ css/
 |     |  |  └─ battleSim.css
-|     |  └─ img
+|     |  └─ img/
 |     |  |  └─ abyss.jpg
 |     |  |  └─ Furina.png
 |     |  |  └─ ruinGuard.png
 |     |  |  └─ Skirk.png
-|     |  └─ js
+|     |  └─ js/
 |     |  └─ index.php
-|     └─ characters
-|     |  └─ css
+|     └─ characters/
+|     |  └─ css/
 |     |  |  └─ chara.css
-|     |  └─ img
+|     |  └─ img/
 |     |  |  └─ abyss.jpg
 |     |  |  └─ Furina.png
 |     |  |  └─ ruinGuard.png
 |     |  |  └─ Skirk.png
-|     |  └─ js
+|     |  └─ js/
 |     |  └─ index.php
-└─ src
-└─ vendor
-|   └─ composer
+└─ src/
+└─ vendor/
+|   └─ composer/
+|   |  └─ semver/
+|   |  |  └─ .github/
+|   |  |  |   └─ workflows/
+|   |  |  |   |   └─ continuous-integration.yml
+|   |  |  |   |   └─ lint.yml
+|   |  |  |   |   └─ phpstan.yml
+|   |  |  |   └─ dependabot.yml
+|   |  |  └─ src/
+|   |  |  |   └─ Contraint/
+|   |  |  |   |   └─ Bound.php
+|   |  |  |   |   └─ Constraint.php
+|   |  |  |   |   └─ ConstraintInterface.php
+|   |  |  |   |   └─ MatchAllConstraint.php
+|   |  |  |   |   └─ MultiContraint.php
+|   |  |  |   └─ Comparator.php
+|   |  |  |   └─ CompilingMatcher.php
+|   |  |  |   └─ Interval.php
+|   |  |  |   └─ Intervals.php
+|   |  |  |   └─ Semver.php
+|   |  |  |   └─ VersionParser.php
+|   |  |  └─ tests/
+|   |  |  |   └─ Constraint
+|   |  |  |   |   └─ ConstraintTest.php
+|   |  |  |   |   └─ MatchAllConstraintTest.php
+|   |  |  |   |   └─ MatchNoneConstraintTest.php
+|   |  |  |   |   └─ MultiContraintTest.php
+|   |  |  |   └─ ComparatorTest.php
+|   |  |  |   └─ CompilingMatcherTest.php
+|   |  |  |   └─ IntervalsTest.php
+|   |  |  |   └─ SemverTest.php
+|   |  |  |   └─ SubsetsTest.php
+|   |  |  |   └─ VersionParserTest.php
+|   |  |  └─ .gitattributes
+|   |  |  └─ .gitignore
+|   |  |  └─ .php_cs
+|   |  |  └─ CHANGELOG.md
+|   |  |  └─ composer.json
+|   |  |  └─ CONSTRIBUTING.md
+|   |  |  └─ LICENSE
+|   |  |  └─ phpstan-baseline.neon
+|   |  |  └─ phpstan.neon.dist
+|   |  |  └─ phpunit.xml.dist
+|   |  |  └─ README.md
 |   |  └─ autoload_classmap.php
 |   |  └─ autoload_namespaces.php
 |   |  └─ autoload_psr4.php
 |   |  └─ autoload_real.php
 |   |  └─ autoload_static.php
 |   |  └─ Classloader.php
+|   |  └─ installed.json
+|   |  └─ installed.php
+|   |  └─ InstalledVersions.php
 |   |  └─ LICENSE
+|   |  └─ platform_check.php
 |   └─ autoload.php
 └─ bootstrap.php
 └─ composer.json
+└─ composer.lock
 └─ index.php
 └─ README.md
 └─ router.php
