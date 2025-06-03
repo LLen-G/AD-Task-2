@@ -1,6 +1,14 @@
 <?php
-define('BASE_URL', '/AD-Task-2');
-define('BASE_PATH', realpath(__DIR__ . '/../../'));
+if (!defined('BASE_URL')) {
+    define('BASE_URL', '/AD-Task-2');
+}
+if (!defined('BASE_PATH')) {
+    define('BASE_PATH', realpath(__DIR__ . '/../../'));
+}
+
+require_once BASE_PATH . '/vendor/autoload.php';
+require_once BASE_PATH . '/bootstrap.php';
+
 include BASE_PATH . '/components/templates/header.php';
 ?>
 

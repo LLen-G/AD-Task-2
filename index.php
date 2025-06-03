@@ -1,3 +1,22 @@
+<?php
+define('BASE_URL', '/AD-Task-2');
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/bootstrap.php';
+
+// Basic router
+$page = $_GET['page'] ?? 'home';
+
+switch ($page) {
+    case 'battleSim':
+        include __DIR__ . '/pages/battleSim/index.php';
+        break;
+    case 'characters':
+        include __DIR__ . '/pages/characters/index.php';
+        break;
+    default:
+        break;
+} ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +31,6 @@
 </head>
 
 <body>
-    <?php define('BASE_URL', '/AD-Task-2'); ?>
     <?php include "components/templates/header.php"; ?>
     <div class="main">
         <h1>Welcome to AD-Task-2!</h1>
@@ -31,8 +49,6 @@
         CSS is not my passion.<br>
         CSS is the bane of my existence.
     </div>
-    <!-- testasdasdaasdasd
-     -->
 
 </body>
 
