@@ -28,9 +28,9 @@ Requirements:<br>
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![visits](https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FLLen-G%2FAD-Task-1&s=40&c=00ff00&bg=00000000&no=4&ff=digi&tb=&ta=)
+![visits](https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FLLen-G%2FAD-Task-2&s=40&c=00ff00&bg=00000000&no=4&ff=digi&tb=&ta=)
 
-[![wakatime](https://wakatime.com/badge/user/018ee6e3-e62d-4b82-b389-125233d22d65/project/2c09d0df-a6d7-4ec2-b7d4-6a686c2f98d6.svg)](https://wakatime.com/badge/user/018ee6e3-e62d-4b82-b389-125233d22d65/project/2c09d0df-a6d7-4ec2-b7d4-6a686c2f98d6)
+[![wakatime](https://wakatime.com/badge/user/018ee6e3-e62d-4b82-b389-125233d22d65/project/901bbfe2-7c9c-437e-bdc8-95158d325ad7.svg)](https://wakatime.com/badge/user/018ee6e3-e62d-4b82-b389-125233d22d65/project/901bbfe2-7c9c-437e-bdc8-95158d325ad7)
 
 ---
 
@@ -63,7 +63,6 @@ Create a sample project that displays the basics of programming. designed and th
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 #### Framework/Library
@@ -73,10 +72,6 @@ Create a sample project that displays the basics of programming. designed and th
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 #### Databases
-
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### Deployment
 
